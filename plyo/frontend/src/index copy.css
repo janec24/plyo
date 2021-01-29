@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+
+*{
+  font-family: 'Quicksand';
+  /*color: white;*/
+  /*background-color: #0bc5af;*/
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  background: #0bc5af;
+  color: white;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.navbar{
+  display: flex;
+  align-items: center;
+}
+
+.links{
+  margin-left: auto;
+}
+
+.form{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0px 30px;
+  border-radius: 6px;
+  margin-bottom: 40px;
+  text-align: center;
+  /*background-color: rgba(255, 255, 255, 0.1);*/
+}
+
+
+button{
+  display: inline-flex;
+  border-width: 0px;
+  transition: background-color 0.2s ease-in-out 0s;
+  line-height: 15px;
+  user-select: none;
+  background-color: rgba(255, 255, 255, 0.15);
+  font-weight: 700;
+  font-size: 14px;
+  padding: 10px 20px;
+  border-radius: 18px;
+  margin-right: 24px;
+  text-align: center;
+  color: white;
+}
+
+.title{
+  margin-left: 15px;
+}
+
+a{
+  text-decoration: none;
+  background-color:  rgba(255, 255, 255, 0.15);
+}
+
+.challengebutton{
+  display: flex;
+  margin-left: 42%;
+  /*margin: 10px;*/
+}
+
+.exercise-details{
+  background-color: #f7f5f5;
+  border-radius: 4px;
+  margin: 30px;
+  padding: 30px;
+  color: #05594f;
+}
+
+.reps{
+  float: right;
+}
+
+.timer-holder{
+  margin: auto;
+  background-color: #eff7ef;
+  width: 50%;
+  text-align: center;
+  border-radius: 5px;
+  color: #05594f;
+}
+
+.timer-display{
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.stopwatch-btn{
+  background-color: #0bc5af;
+}
+
+
+.glass{
+  background: linear-gradient(to bottom right, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+  min-height: 60vh;
+  width: 60%;
+  border-radius: 2rem;
+  padding-top: 40px;
+}
+
+#root{
+  width: 100%;
+}
